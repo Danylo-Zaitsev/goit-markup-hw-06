@@ -789,7 +789,7 @@ main {
 ======================================================================================================================================================== */
 .footer-page {
   background-color: #2e2f42;
-  padding: 96px 0;
+  padding: 100px 0;
 }
 .logo-footer {
   display: inline-block;
@@ -830,7 +830,7 @@ main {
 }
 .footer-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   row-gap: 72px;
 }
 .footer-left-side {
@@ -841,6 +841,10 @@ main {
   margin-left: auto;
   text-align: center;
 }
+.subscribe-conteiner {
+  margin-left: auto;
+}
+
 .footer-icons-list {
   display: flex;
   justify-content: center;
